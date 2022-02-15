@@ -14,7 +14,6 @@ export default function Nav() {
     return (
         <header className={styles.nav}>
             <div className={styles.signature}>
-
                 <Signature fill="#fff" />
             </div>
             <motion.ul className={`${isIndex ? styles.index : styles.notindex}`}
