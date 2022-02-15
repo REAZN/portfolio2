@@ -3,5 +3,47 @@
     right: 0;
     width: 100%;
     height: 100vh;
-    background: #fff;
+    // background: #fff;
+
+    .content {
+        position: absolute;
+        right: 0;
+        width: 65vw;
+        height: 100%;
+
+        .cards {
+            margin-top: 20vh;
+            .card {
+                // background: #a21c2c;
+                padding: 2em;
+                width: 1000px;
+                height: 650px;
+
+                .title {
+                    display: inline-block;
+                    font-weight: 900;
+                    font-size: 8rem;
+                    line-height: 0.8;
+                    margin: 50px -10% 25px;
+                    color: #fff;
+                }
+
+                p {
+                    width: 30em;
+                    font-size: 1.2rem;
+                    // margin: 100px;
+                    // margin-left: 0;
+                    line-height: 1.6;
+                    color: #fff;
+                }
+
+                .link {
+                    text-transform: uppercase;
+                    font-weight: 900;
+                    font-size: 1.5rem;
+                    color: #fff;
+                }
+            }
+        }
+    }
 }

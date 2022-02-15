@@ -14,19 +14,19 @@
 
         h1 {
             font-weight: 900;
-            font-size: 8rem;
+            font-size: 7rem;
             line-height: 0.8;
             margin: 50px;
-            margin-left: 0;
+            margin-left: -8%;
         }
 
         p {
             width: 30em;
             font-size: 1.2rem;
             margin: 100px;
-            color: #808080;
+            margin-left: 0;
             line-height: 1.6;
-            // margin-left: 100px;
+            color: #808080;
         }
 
         span {
@@ -34,7 +34,6 @@
             text-transform: uppercase;
             font-weight: 900;
             font-size: 1.5rem;
-            margin-left: 100px;
         }
     }
 }
