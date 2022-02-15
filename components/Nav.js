@@ -19,12 +19,6 @@ export default function Nav() {
             </div>
             <motion.ul className={`${isIndex ? styles.index : styles.notindex}`}
                 layoutId="header"
-                style={{
-                    width: "max-content",
-                    fontWeight: isIndex ? 900 : 100,
-                    fontSize: isIndex ? "11vw" : "3vw"
-                }}
-                // transition={{ duration: 0.4 }}
                 transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
             >
                 {pages.map((page) => (

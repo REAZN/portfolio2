@@ -11,7 +11,7 @@ export default function About() {
                 initial={{ right: "-100%" }}
                 animate={{ right: "0%" }}
                 exit={{ right: "-100%" }}
-                transition={{ duration: .6, ease: "easeInOut" }}
+                transition={{ duration: 0.6, ease: "easeInOut" }}
             >
                 <motion.div className={styles.content}
                     initial={{ right: "-100%" }}
@@ -28,8 +28,15 @@ export default function About() {
                     >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id lacus placerat turpis et mauris sit. Blandit risus, consequat, in odio sem eu tincidunt. Id lorem consequat arcu, ullamcorper odio. Laoreet enim, et, malesuada eget praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id lacus placerat turpis et mauris sit. Blandit risus, consequat, in odio sem eu tincidunt.
                     </motion.p>
-                    <span>contact@lewisthompson.com</span>
-                    <span>+44 7891269216</span>
+                    <motion.div
+                        initial={{ x: 1000 }}
+                        animate={{ x: 0 }}
+                        exit={{ x: 1000 }}
+                        transition={{ duration: 1.2, ease: "easeInOut" }}
+                    >
+                        <span>contact@lewisthompson.com</span>
+                        <span>+44 7891269216</span>
+                    </motion.div>
                 </motion.div>
             </motion.section>
             <div className={styles["test"]}><Link href="/"><a>ABOUT</a></Link></div>
