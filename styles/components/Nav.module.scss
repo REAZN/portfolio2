@@ -1,56 +1,56 @@
 .nav {
-    .signature {
-        mix-blend-mode: difference;
-        z-index: 9999;
-        position: fixed;
-        top: 4vh;
-        left: 4vw;
-        width: 13em;
-    }
+  .signature {
+    mix-blend-mode: difference;
+    z-index: 9999;
+    position: fixed;
+    top: 4vh;
+    left: 4vw;
+    width: 13em;
+  }
 
-    ul {
-        mix-blend-mode: difference;
-        z-index: 9999;
-        position: fixed;
-        bottom: 4vh;
-        left: 4vw;
-        padding: 0;
-        margin: 0;
-        line-height: 1;
+  ul {
+    mix-blend-mode: difference;
+    z-index: 9999;
+    position: fixed;
+    bottom: 4vh;
+    left: 4vw;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
 
-        li {
-            list-style-type: none;
-            color: #fff;
-            text-transform: uppercase;
-        }
+    li {
+      list-style-type: none;
+      color: #fff;
+      text-transform: uppercase;
     }
+  }
 }
 
 .active {
-    color: #fff !important;
-    opacity: 1 !important;
+  color: #fff !important;
+  opacity: 1 !important;
 }
 
 .index {
-    font-size: 11vw; // todo: clamp
-    font-weight: 900;
+  font-size: 11vw; // todo: clamp
+  font-weight: 900;
 
-    li {
-        &:hover {
-            color: #000;
-            text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
-        }
+  li {
+    &:hover {
+      color: #000;
+      text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
     }
+  }
 }
 
 .notindex {
-    font-size: 3vw; //todo: clamp
-    font-weight: 100;
+  font-size: 3vw; //todo: clamp
+  font-weight: 100;
 
-    li {
-        opacity: 0.5;
-        &:hover {
-            opacity: 1;
-        }
+  li {
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
     }
+  }
 }
