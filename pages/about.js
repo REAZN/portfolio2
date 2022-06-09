@@ -1,4 +1,4 @@
-import styles from "styles/pages/about.module.scss";
+import styles from "styles/pages/About.module.scss";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Nav } from "components";
