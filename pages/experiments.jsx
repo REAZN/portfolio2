@@ -52,7 +52,7 @@ export default function About() {
                                 <li key={experiment.title} className={styles.card}>
                                     <a href={experiment.url} target="_blank" rel="noreferrer" key={experiment.title}>
                                         <div className={styles.imagecontainer}>
-                                            <img className={styles.image} src={`/images/codepen/${experiment.image}`} alt={experiment.name} />
+                                            <img className={styles.image} src={`/images/codepen/${experiment.image}`} alt={experiment.title} />
                                         </div>
                                         <div className={styles.text}>
                                             <span className={styles.number}>

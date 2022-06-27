@@ -9,7 +9,7 @@ const pages = ["about", "projects", "experiments"];
 export default function Nav() {
 
     const path = useRouter().pathname;
-    const isIndex = path == "/";
+    const isIndex = path === "/";
 
     return (
         <header className={styles.nav}>
