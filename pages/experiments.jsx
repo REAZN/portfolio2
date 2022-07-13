@@ -1,4 +1,4 @@
-import styles from "styles/pages/Experiments.module.scss";
+import styles from "styles/pages/experiments.module.scss";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Nav } from "components";
@@ -27,6 +27,7 @@ export default function About() {
                                 <li key={experiment.title} className={styles.card}>
                                     <a href={experiment.url} target="_blank" rel="noreferrer" key={experiment.title}>
                                         <div className={styles.imagecontainer}>
+                                            {/* eslint-disable-next-line @next/next/no-img-element */}
                                             <img className={styles.image} src={`/images/codepen/${experiment.image}`} alt={experiment.name} />
                                         </div>
                                         <div className={styles.text}>
@@ -52,6 +53,7 @@ export default function About() {
                                 <li key={experiment.title} className={styles.card}>
                                     <a href={experiment.url} target="_blank" rel="noreferrer" key={experiment.title}>
                                         <div className={styles.imagecontainer}>
+                                            {/* eslint-disable-next-line @next/next/no-img-element */}
                                             <img className={styles.image} src={`/images/codepen/${experiment.image}`} alt={experiment.title} />
                                         </div>
                                         <div className={styles.text}>

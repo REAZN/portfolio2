@@ -1,4 +1,4 @@
-import styles from "styles/pages/Projects.module.scss";
+import styles from "styles/pages/projects.module.scss";
 import { motion } from "framer-motion";
 import { Nav } from "components";
 import { useState, useRef, createRef, useEffect } from "react";
