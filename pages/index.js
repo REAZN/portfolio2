@@ -1,11 +1,8 @@
-import { motion } from "framer-motion";
-import { Nav, Meta } from "components";
-import styles from "styles/pages/index.module.scss";
+import { Nav} from "components";
 
 export default function Index() {
 	return (
 		<>
-			<Meta />
 			<Nav />
 		</>
 	)
