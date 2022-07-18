@@ -2,7 +2,7 @@ module.exports = {
     siteUrl: "http://localhost:3002",
     seo: {
         title: "REAZN - Portfolio 2",
-        description: "Personal portfolio of Lewis Thompson, a Front-end web developer and designer.",
+        description: "Personal portfolio of REAZN, a Front-end web developer and designer.",
         image: "og.png",
     },
     social: {
@@ -32,6 +32,7 @@ module.exports = {
             demo: "https://reazn.me/rps/",
             github: "https://github.com/REAZN/rock-paper-scissors",
             color: "#171043",
+            active: false,
         },
         {
             title: "Program Butler",
@@ -41,6 +42,17 @@ module.exports = {
             demo: "https://reazn.me/rps/",
             github: "https://github.com/REAZN/rock-paper-scissors",
             color: "#111018",
+            active: false,
+        },
+        {
+            title: "Rock Paper Scissors 2",
+            description: "A simple rock paper scissors game created in React, utilising sockets for multiplayer sessions joinable via codes.",
+            technologies: ["Node.js", "React", "Sass", "Socket.IO"],
+            image: "rps.png",
+            demo: "https://reazn.me/rps/",
+            github: "https://github.com/REAZN/rock-paper-scissors",
+            color: "#171043",
+            active: false,
         },
     ]
 }

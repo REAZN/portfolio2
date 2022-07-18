@@ -23,8 +23,6 @@
       top: 6em;
       width: 0;
       max-width: calc(100% - 40rem);
-      //width: calc(100% - 40rem);
-      //width: calc(100%);
       height: 2px;
       background-color: #000;
     }
@@ -68,9 +66,12 @@
       gap: 2em;
       list-style-type: none;
 
-      //TODO - Hover
-
       li {
+        transition: transform .25s ease-in-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
 
         a {
 

@@ -6,7 +6,7 @@ import { Signature, Meta } from "components";
 
 const pages = ["about", "projects", "experiments"];
 
-export default function Nav() {
+export default function Nav({blendOverride = false}) {
 
     const path = useRouter().pathname;
     const isIndex = path === "/";
@@ -15,10 +15,10 @@ export default function Nav() {
         <>
         <Meta/>
             <header className={styles.nav}>
-                <div className={styles.signature}>
+                <div className={styles.signature} style={blendOverride ? {mixBlendMode: "normal"} : {}}>
                     <Signature fill="#fff" />
                 </div>
-                <motion.ul className={`${isIndex ? styles.index : styles.notindex}`}
+                <motion.ul className={`${isIndex ? styles.index : styles.notindex}`} style={blendOverride ? {mixBlendMode: "normal"} : {}}
                     layoutId="header"
                     transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
                 >
