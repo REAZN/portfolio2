@@ -15,9 +15,11 @@ export default function Nav({blendOverride = false}) {
         <>
         <Meta/>
             <header className={styles.nav}>
-                <div className={styles.signature} style={blendOverride ? {mixBlendMode: "normal"} : {}}>
-                    <Signature fill="#fff" />
-                </div>
+                <Link href={"/"}>
+                    <a className={styles.signature} style={blendOverride ? {mixBlendMode: "normal"} : {}}>
+                        <Signature fill="#fff" />
+                    </a>
+                </Link>
                 <motion.ul className={`${isIndex ? styles.index : styles.notindex}`} style={blendOverride ? {mixBlendMode: "normal"} : {}}
                     layoutId="header"
                     transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
